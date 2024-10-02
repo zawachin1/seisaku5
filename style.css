@@ -1,0 +1,227 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: stick  ;
+  height: 100%;
+  margin: 0;
+}
+
+.uchidasann{
+  width:1210px;
+  margin-left: 60px;
+  background-color:#DDFFDD;
+  transform: skew(-20deg);
+  color: #49796B;
+  -webkit-text-stroke: 3px #FFF;
+  text-stroke: 1px #FFF;
+  border-color: #FFFFFF;/* 線の色 */
+  background: rgba(221,255,221,0.7);
+  border-style: solid;/* 線の種類 */
+  border-left-style: double;
+  border-right-style: double;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-width: 16px;/* 線の太さ */
+}
+/* h1見出し */
+h1 {
+  /*color:#F4CC70; /* フォントの色 */
+  font-size: 70px;/* フォントの大きさ */
+  font-family: Kosugi+Maru;/* フォントの種類 */
+  text-align: center;/* 文字・画像を中央にそろえる */
+  padding: 20px;/* 内側の余白 */
+  margin: 30px;/* 外側の余白 */
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(heddagazou.png);/* 背景画像 */
+  height: 450px;/* 高さ */
+  padding-top: 150px;/* 上がわの余白 */
+  background-size:cover;
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.shop {
+ background-color:#80BD9E ;
+  color: #663300;
+  padding: 30px;
+  background-size:cover;
+}
+.title-point {
+  text-align:center;
+  font-size:40px;
+  background-color:#ffffff;
+  padding:10px;
+  width:60px;
+  color:#80BD9E;
+  border-radius: 50%;
+margin-right: 5px;
+  display:inline-block;
+}
+
+
+/* h2見出し */
+.title {
+  color:#ffffff;
+  font-size: 30px;
+  border-left-style: solid;
+  border-color:#ffcc11;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+   }
+   .title-font{
+      text-align:center;
+  font-size:40px;
+  background-color:#ffffff;
+  padding:10px;
+  width:60px;
+  color:#80BD9E;
+  border-radius: 50%;
+margin-right: 5px;
+  display:inline-block;
+   }
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+  font-weight: bold;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px;
+  background-color:#80BD9E;
+}
+
+/* h2見出し */
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.photo p {
+  color: #ffffff;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+.photo img {
+  box-shadow: 5px 5px 0 #c0c0c0;
+  
+}
+
+.marker {
+  background-image: linear-gradient(transparent 50%,#FFD700 50%); 
+}
+
+
+/* 大きな箱 */
+.big {
+  background-color: #ffffff;
+  width: 500px;/* 横幅 */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  float: left;
+  transform: rotate(-5deg);/* 回転させる */
+}
+
+/* 小さな箱 */
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+/* 箱 */
+.box {
+  float: left;
+}
+
+
+/* ===== 値段表のスタイル ===== */
+/* セクション */
+.price {
+  padding: 30px;
+  background-color:#80BD9E;
+}
+.price-font{
+   text-align:center;
+  font-size:40px;
+  background-color:#ffffff;
+  padding:10px;
+  width:60px;
+  color:#80BD9E;
+  border-radius: 50%;
+margin-right: 5px;
+  display:inline-block;
+}
+
+/* h2見出し */
+.price h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* 表 */
+.price table {
+  background-color: #FFFFEF;
+  border-collapse: collapse;/* 表の隙間（すきま） */
+  width: 100%;
+}
+
+/* 表のセル */
+.price td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+/* 表の見出しセル */
+.price th {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #000000;
+  text-align: left;
+}
+
+/* 表の見出しセル（季節） */
+.season th {
+  background-color: #33ddcc;
+}
+
+.homepazi{
+ background-color: #7ACC93 ;
+ color: #ffffff;
+ text-align:center;
+}
+a{
+ color: green;
+ }
